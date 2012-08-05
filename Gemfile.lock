@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    fleakr (0.7.1)
+      hpricot (>= 0.6.164)
+      loggable (>= 0.2.0)
+    hpricot (0.8.6)
+    linecache (0.46)
+      rbx-require-relative (> 0.0.4)
+    loggable (0.3.0)
+    rbx-require-relative (0.0.9)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fleakr
+  ruby-debug
